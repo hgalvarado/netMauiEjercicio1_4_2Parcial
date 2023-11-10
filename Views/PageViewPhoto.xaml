@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="netMauiEjercicio1_4.Views.PageViewPhoto"
+              xmlns:conver="clr-namespace:netMauiEjercicio1_4.Controllers"
+             Title="Fotografia">
+
+    <ContentPage.Resources>
+        <conver:ByteArrayImage x:Key="ByteArray"/>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <Image x:Name="image"/>
+    </ContentPage.Content>
+</ContentPage>

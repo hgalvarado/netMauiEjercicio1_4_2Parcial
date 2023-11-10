@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="netMauiEjercicio1_4.MainPage"
+             Title="Agregar Persona"
+             >
+
+    <ContentPage.Content>
+        <StackLayout Padding="5" Margin="5">
+            <Image x:Name="imgPhoto"
+                   HeightRequest="200"
+                   />
+
+            <Label Text="Nombre"
+                   HorizontalOptions="FillAndExpand"
+                   />
+            <Entry x:Name="txtName"
+                   Placeholder="Ingrese su nombre"
+                   HorizontalOptions="FillAndExpand"
+                   HorizontalTextAlignment="Start"
+                   />
+            <Label Text="Descripcion"
+                   HorizontalOptions="FillAndExpand"
+                   />
+            <Entry x:Name="txtDescription"
+                   Placeholder="Ingrese una descripcion de la foto"
+                   HorizontalOptions="FillAndExpand"
+                   HorizontalTextAlignment="Start"
+                   />
+            <Button x:Name="btnCapture"
+                    Text="Tomar Foto"
+                    Margin="5"
+                    Clicked="btnCapture_Clicked"
+                    />
+            <Button x:Name="btnSave"
+                    Text="Guardar"
+                    Margin="5"
+                    Clicked="btnSave_Clicked"
+                    />
+            <Button x:Name="btnList"
+                    Text="Lista"
+                    Margin="5"
+                    Clicked="btnList_Clicked"
+                    />
+
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
